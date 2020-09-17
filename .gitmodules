@@ -7,3 +7,6 @@
 [submodule "winsdk-player"]
 	path = winsdk-player
 	url = https://github.com/hongzhuxuke/winsdk-player.git
+[submodule "live_core"]
+	path = live_core
+	url = https://github.com/hongzhuxuke/live_core.git
