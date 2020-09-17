@@ -1,0 +1,817 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_CommonToolKit.cpp">
+      <Filter>Depend\Common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_MainUI.cpp">
+      <Filter>Depend\Common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\RuntimeInstance.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\RuntimeUIThreadManager.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\RuntimePlugManager.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\charset.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ConfigSetting.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\CRC32.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ExceptionDump.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\PublishInfo.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\push_button.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\SocketClient.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\TitleWidget.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UACUtility.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UpLoader.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_VhallLive.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhhttp.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_VhallRightExtraWidget.cpp">
+      <Filter>Depend\Common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\MainUI\UI\CheckVersionDlg.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhupdatetips.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\title_button.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhprocessbar.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhnetworkproxy.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhnetworktips.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBox.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBoxItem.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhproxytest.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathManage.cpp">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathmanager.cpp">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\pub.Struct.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\HttpProxyGet.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhallwaiting.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RuntimeInstance.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RuntimeInstance.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CheckVersionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CheckVersionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\cbasedlg.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhsqllite.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_UpLoader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UpLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UpLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_UpLoader.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_vhallwaiting.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallwaiting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallwaiting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhallwaiting.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_TitleWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_TitleWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_title_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_title_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_title_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_title_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_vhhttp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhhttp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhhttp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhhttp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_vhproxytest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhproxytest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhproxytest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhproxytest.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_vhsqllite.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhsqllite.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhsqllite.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhsqllite.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhupdatetips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhupdatetips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhnetworkproxy.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhnetworkproxy.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_vhnetworktips.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhnetworktips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhnetworktips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhnetworktips.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhprocessbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhprocessbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_push_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_push_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_push_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_push_button.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AMDAdapterCheck.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\AlertTipsDlg.cpp">
+      <Filter>Depend\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AlertTipsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Ui\AMDAdapterCheck.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_AMDAdapterCheck.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AMDAdapterCheck.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_AMDAdapterCheck.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_CommonToolKit.h">
+      <Filter>Depend\Common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_MainUI.h">
+      <Filter>Depend\Common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logical\RuntimeUIThreadManager.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logical\RuntimePlugManager.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\charset.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ConfigSetting.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\CRC32.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ExceptionDump.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\PublishInfo.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\SocketClient.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\UACUtility.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_VhallRightExtraWidget.h">
+      <Filter>Depend\Common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vhupdatetips.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vhprocessbar.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vhnetworkproxy.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vhnetworktips.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathManage.h">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathmanager.h">
+      <Filter>Depend\Common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Const.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Struct.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_vhallwaiting.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\vld.h">
+      <Filter>Depend\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AlertTipsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AMDAdapterCheck.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Instance\RuntimeInstance.h">
+      <Filter>Instance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\push_button.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\TitleWidget.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\UpLoader.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="VhallLive.qrc">
+      <Filter>project</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhhttp.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\MainUI\UI\CheckVersionDlg.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhupdatetips.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhupdatetips.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\title_button.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhprocessbar.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhprocessbar.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworkproxy.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworkproxy.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworktips.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworktips.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ComboBox.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ComboBoxItem.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhproxytest.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\HttpProxyGet.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallwaiting.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallwaiting.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\cbasedlg.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhsqllite.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\AlertTipsDlg.h">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\AlertTipsDlg.ui">
+      <Filter>Depend\Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Ui\AMDAdapterCheck.h">
+      <Filter>UI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Ui\AMDAdapterCheck.ui">
+      <Filter>UI</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{1069620e-bbe2-48b9-9f97-5e6ba57789d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{0c76a8fe-4499-4f6e-8205-766771629579}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{e54ad933-e1da-4d75-b3a1-6e2f267b0c3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{91a75888-ec06-4ff2-b8f5-15f93c79f09c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\Common">
+      <UniqueIdentifier>{fa420023-fa23-47b1-867e-a1a218948a42}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\Common\baseclass">
+      <UniqueIdentifier>{fa8ad065-792d-4cd6-9e8b-8b4cbf313024}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\Common\message">
+      <UniqueIdentifier>{b05493bc-bdf0-49b0-b7ec-63fa9efd48f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{ef910c44-5b4b-492a-8592-ebcb995aac26}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{de4ed7f7-a672-4a4f-9d55-b9ccf510fd54}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4dd8fbe2-1ef4-4a20-8560-f0068e0deda2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Style.qss">
+      <Filter>project</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="img\toolWidget\desktopShare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\device.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\multiMedia.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\startLive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\stopLive.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\mic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\mic_mute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\speaker.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\speaker_mute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\desktopShow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\softWareShow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\regionShow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\insertVedio.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\insertImage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\insertText.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\mute.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\Popup_bg.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\devicePopup_gb.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\stopShare.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\main_setting.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\min_button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\close_button.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\vhall_logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\checkbox.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\radiobutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\fontBold.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\fontColor.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\fontItalic.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\fontUnderline.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\vhallTitleLogo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\addCamera.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\hintBackground_green.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\hintBackground_red.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\hintBackground_yellow.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\micEnhanceAble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\micVolumeAble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\micVolumeUnable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\speakerVolumeAble.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\speakerVolumeUnable.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\delete_item.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_filelist.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_loop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_pause.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_start.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_volume_off.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\media_play_volume_on.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolWidget\media_file_add.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\comboBox_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\comboBox_select.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\comboBox_normal_big.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\combobox_select_big.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\comboBox_arrow_normal.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\combobox_arrow_press.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\pushbutton.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\pushButton_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\pushbutton_small.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\pushbutton_small_disabled.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\sysButtonIcon_up.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\sysButtonIcon_down.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\apply.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\openCurDir.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\ChangeDir.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\settingBtn.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\EnhanceSetting.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\deviceOption.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\volumnBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\sysButton\volumnHandle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\aboutUS.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\exit.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\QA.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\setting.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\usage.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mainMenu\triangle.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\loginDialog\loginBackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\loginDialog\loginLogo1.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\loginDialog\password.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\loginDialog\username.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\camera\cameraLoading.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\camera\cameraLoadingFailed.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolTip\firstTip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\toolTip\suspendTip.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\desktopSharing\exitDesktopSharing.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\desktopSharing\redPoint.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\windowSetting\flush.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\insertVideo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\listloop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\sequentialplay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\singleloop.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\addfiles.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\beginplay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\stopplay.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="img\mediaReader\playlistbackground.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="vhallhide.ico" />
+    <Image Include="vhalltencent.ico" />
+    <Image Include="sdgh.ico" />
+    <Image Include="vhall.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="VhallLive.rc" />
+  </ItemGroup>
+</Project>

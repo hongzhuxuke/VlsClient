@@ -1,0 +1,7 @@
+; OBSControl.def : Declares the module parameters for the DLL.
+
+LIBRARY      "OBSControl"
+
+EXPORTS
+	GetClassObject
+    ; Explicit exports can go here

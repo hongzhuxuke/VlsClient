@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\common\baseclass\BaseThread.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\PublishInfo.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\PluginBase.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\CommonToolKitIns.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\CommonData.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_CommonToolKit.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ConfigSetting.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathmanager.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\baseclass\BaseThread.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\PublishInfo.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\PluginBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Instance\CommonToolKitIns.h">
+      <Filter>Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\CommonData.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_CommonToolKit.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ConfigSetting.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathmanager.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{8e366a2e-3256-47af-90bc-08159c748b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{c855f94e-ad07-4d0a-be89-5e8903883168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{c6999a88-13d7-45c3-8fa2-14e32da0a391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{83ff477e-283d-4bdd-8407-166e13d48b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common">
+      <UniqueIdentifier>{5bd1306a-5b71-4413-b9e0-cc882252230b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\baseclass">
+      <UniqueIdentifier>{67d2ca88-3c2f-455e-b56b-08c4b39e4b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\message">
+      <UniqueIdentifier>{ba9b9340-7c36-42fe-858a-acc37f685e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3cadafc4-1911-4294-b55d-c6f8b9c770c2}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{9430ce69-a909-4879-b32e-45f760f273dc}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="CommonToolKit.def">
+      <Filter>Project</Filter>
+    </None>
+  </ItemGroup>
+</Project>

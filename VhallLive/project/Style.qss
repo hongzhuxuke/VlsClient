@@ -1,0 +1,615 @@
+/*主界面的竖条音量slider*/
+/*
+QDialog#CameraMgrUI {
+border-width:50px 5px 20px 5px;
+border-image:url(:/toolWidget/devicePopup_gb) 50 5 20 5;
+}
+QToolTip{color:gray;}
+*/
+
+
+
+
+/*互动桌面共享背景图*/
+QFrame#screenShareButtomFrame
+{
+	border-image: url(:/interactivity/img/interactivity/stopShareBackGroud.png);
+}
+
+QFrame#screenShareTopFrame
+{
+	border-image: url(:/interactivity/img/interactivity/shareToolBtn.png);
+}
+
+/*设置界面中 功能提示tip*/
+QLabel#labKbps:hover, QLabel#label_voiceTranslateTip:hover, 
+QLabel#labAudioSampleRate:hover, QLabel#labMicGain:hover, 
+QLabel#labNoiseValve:hover, QLabel#labelNoiseReductionTips:hover,
+QLabel#labHighQualityCod:hover,#labRecord:hover,#labDesktopAudio:hover,#label_videoQuality:hover
+{	
+border-image: url(:/sysButton/img/sysButton/noiseTipsOn.png);
+}
+
+QLabel#labKbps, QLabel#labAudioSampleRate,QLabel#label_voiceTranslateTip,
+ QLabel#labMicGain,QLabel#labNoiseValve, QLabel#labelNoiseReductionTips,
+QLabel#labHighQualityCod,#labRecord,#labDesktopAudio,#label_videoQuality
+{	
+border-image: url(:/sysButton/img/sysButton/noiseTips.png);
+}
+/*登陆界面中版本号*/
+QLabel#labVesion{color:#626567; font:13px;}
+
+/*右下角推流状态条和方框*/
+QLabel#m_pLiveStatusLbl{background-color: rgb(51, 51, 51);border-radius:14px;color: rgb(255, 255, 255);text-align:center}
+QLabel#streamStatus{border: 1px solid rgb(150, 150, 150);font:12px;background-color:rgb(100,100,100);}
+
+/*所有label默认统一*/
+QLabel{font: 12px bold; color: rgb(153, 153, 153);}
+QLabel#exitMsgLbl{font: 14px bold;}
+
+/*QLabel#HintMsg{border-image: url(:/sysButton/hintBack);color: rgb(255, 255, 255);font:12px;}*/
+
+/*嘉宾连麦QLineEdit样式表*/
+QLineEdit
+{
+color:#c8c8c9;
+background-color: rgb(38, 38, 38);
+padding-left:10px;
+padding-right:10px;
+}
+
+QMenu {
+color:#c8c8c9;
+background-color: rgb(38, 38, 38);
+}
+
+QMenu::item:selected {
+color:#c8c8c9;
+background-color: rgb(63, 63, 67);
+}
+
+/*右键"置于顶层"、"删除"等*/
+QMenu#graphicMenu{ width:94px; height:122px; background-color:#bdbdbd; color:#000000; font:13px; padding:0px,1px,0px,1px}
+QMenu#graphicMenu::item{ height:20px; padding:1px 0px 1px 18px; }
+QMenu#graphicMenu::item:selected{ background-color:#065bbe; }
+QMenu#graphicMenu::item:disabled{ background-color:#bdbdbd;color:gray; }
+/*QMenu#graphicMenu::item:enabled{ background-color:#bdbdbd;color:black; }*/
+QMenu#graphicMenu{ border: 1px solid rgb(184, 184, 184); border-radius: 4px; }
+
+/*系统按钮 背景*/
+QPushButton#savedDirBtn, QPushButton#pushButton_deviceOption, QPushButton#device_option
+{font: 12px; color: rgb(153, 153, 153);border-image:url(:/sysButton/pushButton_small);}
+QPushButton#savedDirBtn:disabled, QPushButton#pushButton_deviceOption:disabled, QPushButton#device_option:disabled
+{font: 12px; color: rgb(153, 153, 153);border-image:url(:/sysButton/pushButton_small_disabled);}
+
+QPushButton#advSettingVideoBtn, QPushButton#advSettingAudioBtn
+{font: 12px; color: rgb(153, 153, 153);border-image:url(:/sysButton/pushButton);}
+QPushButton#advSettingVideoBtn:disabled, QPushButton#advSettingAudioBtn:disabled
+{font: 12px; color: rgb(153, 153, 153);border-image:url(:/sysButton/pushButton_disabled);}
+
+
+/*设备选项*/
+
+/*弹出框的红色保存按钮*/
+QPushButton#saveBtn,QPushButton#confirm{background-color: rgba(255, 45, 52, 51);border: 1px solid rgb(255, 51, 51);border-radius: 2px;color: rgb(208, 202, 203);}
+QPushButton#saveBtn:hover,QPushButton#confirm:hover{background-color: rgb(255, 51, 51);border-radius: 2px;color: rgb(255, 235, 235);}
+QPushButton#saveBtn:pressed,QPushButton#confirm:pressed,QPushButton#saveBtn:pressed,QPushButton#confirm:pressed{background-color: rgba(255, 45, 52, 51);border: 1px solid rgb(255, 51, 51);border-radius: 2px;color: rgb(208, 202, 203);}
+/*弹出框的白色取消按钮*/
+
+
+/*音/视频设备“高级设置”按钮*/
+QToolButton#settingItemBtn, QPushButton#advSettingVideoBtn, QPushButton#advSettingAudioBtn, QPushButton#device_option, QPushButton#savedDirBtn
+{font: 12px; color: rgb(153, 153, 153);border-radius: 2px;}
+QToolButton#settingItemBtn:hover, QPushButton#advSettingVideoBtn:hover, QPushButton#advSettingAudioBtn:hover, QPushButton#device_option:hover, QPushButton#savedDirBtn:hover
+{font: 12px; color: rgb(255, 102, 102);border-radius: 2px;}
+QToolButton#disabledBtn{font: 12px; color: rgb(204, 204, 204);background-color: rgb(248,248,248);border: 1px solid rgb(223, 223, 223);border-radius: 2px;}
+/*直播插件按钮——样式
+QToolButton#tBtnLiveTool{border-image: url(:/toolWidget/liveTool) 0 90 0 0 ;}
+QToolButton#tBtnLiveTool:hover{border-image: url(:/toolWidget/liveTool) 0 45 0 45;}
+QToolButton#tBtnLiveTool:pressed{border-image: url(:/toolWidget/liveTool) 0 0 0 90;}
+*/
+
+QPushButton#addFileBtn{font: 12px; color: rgb(0, 0, 0);}
+QPushButton#addFileBtn{background-color: rgb(255,255,255);border: 1px solid rgb(184, 184, 184);border-radius: 4px;}
+
+/*音频界面“恢复出厂设置、视频页面“高级设置”*/
+QPushButton#btnReStore, QPushButton#pushButton_reset,QToolButton#tBtnAdvancedSetting{background-color: rgb(54, 54, 54);border: 1px solid rgb(120, 120, 120);border-radius: 2px;font: 12px; color: rgb(122, 122, 122);}
+QPushButton#btnReStore:hover, QPushButton#pushButton_reset:hover,QToolButton#tBtnAdvancedSetting:hover{background-color: rgb(93, 93, 93);border-radius: 2px;color: rgb(188, 188, 188);}
+QPushButton#btnReStore:pressed, QPushButton#pushButton_reset:pressed,QToolButton#tBtnAdvancedSetting:pressed{background-color: rgb(54, 54, 54);border: 1px solid rgb(120, 120, 120);border-radius: 2px;font: 12px; color: rgb(122, 122, 122);}
+
+
+/*更新界面 立即更新按钮*/
+QToolButton#toolButton{	border-image: url(:/sysButton/img/sysButton/immUpdate.png) 0 0 132 0 ;}
+QToolButton#toolButton:hover{  border-image: url(:/sysButton/img/sysButton/immUpdate.png) 44 0 88 0 ;}
+QToolButton#toolButton:pressed{  border-image: url(:/sysButton/img/sysButton/immUpdate.png) 88 0 44 0 ;}
+
+/*更新界面 以后提醒 按钮*/
+QPushButton#btnCloseButton{border-image: url(:/sysButton/img/sysButton/btn_close.png) 0 0 132 0;}
+QPushButton#btnCloseButton:hover{border-image: url(:/sysButton/img/sysButton/btn_close.png) 44 0 88 0;}
+QPushButton#btnCloseButton:pressed{border-image: url(:/sysButton/img/sysButton/btn_close.png) 88 0 44 0;}
+
+/*checkbox统一格式*/
+
+/*QCheckBox {font: 12px bold; color: rgb(153, 153, 153);}*/
+/*QCheckBox:disabled {font: 12px bold; color: rgb(142, 142, 142);}*/
+/*QCheckBox::indicator {width: 15px; height: 15px;}*/
+/*QCheckBox::indicator:checked {border-image: url(:/sysButton/checkbox) 0 30 0 15;}*/
+/*QCheckBox::indicator:unchecke d{border-image: url(:/sysButton/checkbox) 0 45 0 0;}*/
+/*QCheckBox::indicator:checked:disabled {border-image: url(:/sysButton/checkbox) 0 0 0 45;}*/
+/*QCheckBox::indicator:unchecked:disabled {border-image: url(:/sysButton/checkbox) 0 15 0 30;}*/
+
+
+QCheckBox {font: 12px bold; color: rgb(214, 214, 214);}
+QCheckBox:disabled {font: 12px bold; color: rgb(142, 142, 142);}
+QCheckBox::indicator {width: 15px; height: 15px;}
+QCheckBox::indicator:checked {border-image:url(:/sysButton/img/sysButton/check.png);}
+QCheckBox::indicator:unchecked {border-image:url(:/sysButton/img/sysButton/uncheck.png);}
+QCheckBox::indicator:checked:disabled {border-image:url(:/sysButton/img/sysButton/check.png);}
+QCheckBox::indicator:unchecked:disabled {border-image:url(:/sysButton/img/sysButton/uncheck.png);}
+
+/*radiobutton统一格式*/
+QRadioButton {font: 12px bold; color: rgb(214, 214, 214); }
+QRadioButton::indicator {width: 13px; height: 13px;}
+QRadioButton::indicator:checked{background-image:url(:/sysButton/img/sysButton/radio.png); background-position:right center;}
+QRadioButton::indicator:unchecked{background-image:url(:/sysButton/img/sysButton/unradio.png);}
+/**/
+
+
+/*combobox统一格式*/
+QComboBox#publinesCbx{border-bottom: 1px gray}
+QComboBox#publinesCbx QAbstractItemView::item{height:30px;}
+QComboBox
+{
+color: rgb(214, 214, 214);
+font: 12px;
+height: 28px;
+min-height: 28px;
+border-image:url(:/sysButton/comboBox_normal_big);
+
+padding-left:10px;
+padding-right:10px;
+}
+
+QComboBox::drop-down
+{
+right: 5px;
+background:transparent;
+subcontrol-origin: margin;
+}
+
+QComboBox::down-arrow
+{
+min-width: 25px;
+min-height: 28px;
+border:none;
+image:url(:/sysButton/img/sysButton/down_arrow.png);
+}
+
+QComboBox::up-arrow
+{
+min-width: 25px;
+min-height: 28px;
+border:none;
+image:url(:/sysButton/img/sysButton/arrorw_up.png);
+}
+
+QComboBox::down-arrow:on
+{
+min-width: 25px;
+min-height: 28px;
+border:none;
+image:url(:/sysButton/img/sysButton/down_arrow.png);
+}
+
+QComboBox QAbstractItemView
+{
+	border:1px solid gray;
+	height: 24px;
+	outline: none;
+	color: rgb(214, 214, 214);
+	background-color: rgb(40, 40, 40);
+	border-radius: 0px;
+}
+
+QComboBox QAbstractItemView::item {
+	height: 24px;
+	color: rgb(214, 214, 214);
+	background-color: rgb(40, 40, 40);
+	border-radius: 0px;
+}
+
+QComboBox QAbstractItemView::item:selected  
+{     
+	height: 24px;
+	color: rgb(252, 86, 89);
+	background-color: rgb(58, 58, 58);
+	border-radius: 0px;
+}
+
+.QListView::item
+{
+color: rgb(153, 153, 153);
+background-color: rgb(38,38,38);
+}
+
+.QListView::item:focus
+{
+color: rgb(153, 153, 153);
+border-image: url(:/sysButton/comboBox_select_big)
+}
+
+.QListView::item:hover {
+color: rgb(153, 153, 153);
+border-image: url(:/sysButton/comboBox_select_big)
+}
+
+
+/*音频配置弹出框*/
+QSlider{
+border-radius: 2px;
+margin:0px 0px;
+}
+QSlider::groove:horizontal {
+border: 1px solid #8d8c8c;
+height: 2px;
+margin: 0px 0px;
+left: 5px;
+right: 5px;
+}
+QSlider::groove:horizontal:disabled {
+border: 1px solid #3B3A3A;
+height: 2px;
+margin: 0px 0px;
+left: 5px;
+right: 5px;
+}
+QSlider::handle:horizontal {
+background: #D1D1D1;
+border-radius: 5px;
+border: 1px solid #8d8c8c;
+width: 10px;
+height: 12px;
+margin: -5px -5px;
+}
+QSlider::handle:horizontal:disabled {
+background: #6A6A6A;
+border-radius: 5px;
+border: 1px solid #6d6c6c;
+width: 10px;
+height: 12px;
+margin: -5px -5px;
+}
+QSlider::sub-page:horizontal{
+background: #FC5659;
+}
+QSlider::add-page:horizontal{
+background: #5A5959;
+}
+QSlider::sub-page:horizontal:disabled{
+background: #3B3A3A;
+}
+QSlider::add-page:horizontal:disabled{
+background: #3B3A3A;
+}
+
+/*播放器控制条*/
+QSlider#MediaPlayerSlider{
+margin:0px 0px;
+}
+QSlider#MediaPlayerSlider::groove:horizontal {
+height: 5px;
+margin: 0px 0px;
+left: 0px;
+right: 0px;
+}
+QSlider#MediaPlayerSlider::handle:horizontal {
+background: #f64840;
+width: 1px;
+height: 5px;
+}
+QSlider#MediaPlayerSlider::sub-page:horizontal{
+background: #f64840;
+}
+QSlider#MediaPlayerSlider::add-page:horizontal{
+background: #727272;
+}
+
+
+/*音频降噪条*/
+
+QSlider#horizontalSlider_Noise{
+border-radius: 0px;
+margin:0px 0px;
+}
+QSlider#horizontalSlider_Noise::groove:horizontal {
+border: 0px solid #8d8c8c;
+height: 2px;
+margin: 0px 0px;
+left: 5px;
+right: 5px;
+}
+QSlider#horizontalSlider_Noise::groove:horizontal:disabled {
+border: 0px solid #3B3A3A;
+height: 2px;
+margin: 0px 0px;
+left: 5px;
+right: 5px;
+}
+QSlider#horizontalSlider_Noise::handle:horizontal {
+background: #D1D1D1;
+border-radius: 5px;
+border: 1px solid #8d8c8c;
+width: 10px;
+height: 12px;
+margin: -5px -5px;
+}
+QSlider#horizontalSlider_Noise::handle:horizontal:disabled {
+background: #6A6A6A;
+border-radius: 5px;
+border: 1px solid #6d6c6c;
+width: 10px;
+height: 12px;
+margin: -5px -5px;
+}
+QSlider#horizontalSlider_Noise::sub-page:horizontal{
+	background-color:transparent
+}
+QSlider#horizontalSlider_Noise::add-page:horizontal{
+	background-color:transparent
+}
+QSlider#horizontalSlider_Noise::sub-page:horizontal:disabled{
+	background-color:transparent
+}
+QSlider#horizontalSlider_Noise::add-page:horizontal:disabled{
+	background-color:transparent
+}
+
+
+/*播放器控制条*/
+QSlider#MediaPlayerSlider1{
+margin:0px 0px;
+}
+QSlider#MediaPlayerSlider1::groove:horizontal {
+height: 5px;
+margin: 0px 0px;
+left: 0px;
+right: 0px;
+}
+QSlider#MediaPlayerSlider1::handle:horizontal {
+background: #f64840;
+width: 1px;
+height: 5px;
+}
+QSlider#MediaPlayerSlider1::sub-page:horizontal{
+background: #f64840;
+}
+QSlider#MediaPlayerSlider1::add-page:horizontal{
+background: #727272;
+}
+
+/*滚动条样式 开始*/
+QScrollBar:vertical
+{
+border-radius:4px;
+width:11px;
+background:rgba(59,59,59, 255);
+margin:0px,0px,0px,0px;
+
+}
+
+QScrollBar::handle:vertical
+{
+background:rgba(41,41,41, 255);
+border-radius:4px;
+min-height:11;
+border: 2px solid #383838;
+}
+
+/*鼠标进入*/
+QScrollBar::handle:vertical:hover
+{
+background:rgba(23,23,23, 255);
+border-radius:4px;
+min-height:11;
+border: 2px solid #383838;
+}
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical 
+{
+background:rgba(59,59,59, 255);
+}
+
+/*增加*/
+QScrollBar::add-line:vertical
+{
+height:0px;
+width:11px;
+subcontrol-position:bottom;
+}
+/*减少*/
+QScrollBar::sub-line:vertical
+{
+height:0px;
+width:11px;
+subcontrol-position:top;
+}
+/*滚动条样式 结束*/
+
+/*成员列表管理界面 按钮中间线样式background-color:  border: 1px solid #737373;*/
+#line,#lineUpper,#lineProhibit
+{
+	border-left: 5px solid rgba(115,115,115,255); 
+	background-color:  rgba(115,115,115,255);  
+}
+
+/*成员列表按钮 样式表*/
+QPushButton#btnKickOut,#btnRaiseHands,#btnProhibitSpeaking,#btnOnLine,#btnUpper,#btnAgreeUpper,#btnSelfUpper
+{
+	color: #999999;
+	border:1px solid rgba(0,0,0,0);
+	background-color: rgb(0,0,0,0);
+}
+
+QPushButton#btnKickOut:hover,#btnRaiseHands:hover,#btnProhibitSpeaking:hover,
+#btnOnLine:hover, #btnRefresh:hover,#btnUpper:hover,#btnAgreeUpper:hover,#btnSelfUpper:hover
+{
+	color:  #FC5659;
+}
+
+QPushButton#btnKickOut:pressed,#btnRaiseHands:pressed,#btnProhibitSpeaking:pressed,
+#btnOnLine:pressed,#btnRefresh:pressed,#btnUpper:pressed,#btnAgreeUpper:pressed,#btnSelfUpper:pressed
+{
+	color: #999999;
+}
+/*刷新按钮*/
+QPushButton#btnRefresh
+{
+	color: #999999;
+	background-color: rgb(0,0,0,0);
+	border: 1px solid #737373;
+	border-radius: 4px;
+}
+
+QListWidget
+{
+	background: #434343;
+}
+
+QListWidget::item
+{
+	background-color: rgb(67, 67, 67);
+	border: 0px;
+	border-radius: 0px;
+}
+
+QListWidget::item:focus
+{
+	background-color: rgb(44, 44, 44);
+	border: 0px;
+	border-radius: 0px;
+}
+
+QListWidget::item:hover {
+	background-color: rgb(44, 44, 44);
+	border: 0px;
+	border-radius: 0px;
+}
+
+QListWidget::item:hover {
+	background-color: rgb(44, 44, 44);
+	border: 0px;
+	border-radius: 0px;
+}
+
+#kickOutListWdt,#onLineListWdt,#raiseHandsListWdt,#prohibitSpeakinglistWdt
+{
+	border: 0px;
+	border-radius: 0px;
+}
+
+
+/*2019.06.21*/
+
+QToolButton#voiceTranslate:checked:enabled,QToolButton#micButton:checked:enabled
+{
+	border-image: url(:/button/images/kaiqi.png);
+}
+
+QToolButton#voiceTranslate,QToolButton#micButton
+{
+	border-image: url(:/button/images/guanbi.png);
+}
+
+/*#btnwdg{border: 1px solid #ECECEC;border-radius: 20px;}*/
+
+
+QLabel#mpLabIcon,#labelIcon,#iconfontbtn{font-family: "iconfont";font:14px;}
+QLabel#exitMsgLbl{font: 14px bold;}
+
+QPushButton#iconfontbtn{
+	font: 12px;
+	color: #FFFFFF;
+	background:rgba(226,226,226, 38);
+	border-radius:14px; 
+}
+QPushButton#iconfontbtn:hover{ 
+		background:#FC5659;
+}
+
+/*桌面共享顶部工具栏按钮*/
+#tBtnMic,#tBtnQuikTool,#tBtnSetting,#tBtnPlayer{
+	font-family: "iconfont";
+	font:18px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 2);
+}
+
+#tBtnCamera,#tBtnLive,#tBtnStopSharing{
+	font-family: "iconfont";
+	font:16px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(0, 0, 0, 2);
+}
+
+#tBtnCamera:hover,#tBtnLive:hover,#tBtnMic:hover,#tBtnQuikTool:hover,#tBtnSetting:hover
+,#tBtnStopSharing:hover,#tBtnPlayer:hover
+{
+	color: #FC5659;
+	background-color: rgba(0, 0, 0, 153);
+}
+
+#CaptureSrcUIBakFrame{
+	border-image: url(:/toolTip/img/toolTip/LiveToolDlg3.png);
+}
+
+QPushButton#btnEx
+{
+font-family: "iconfont";
+font:6px;
+color: rgb(255, 255, 255);
+background-color: rgba(0, 0, 0, 178);
+border-bottom-left-radius:3px;
+border-bottom-right-radius:3px;
+}
+
+QPushButton#btnEx:hover
+{
+color: rgb(255, 255, 255);
+background-color: #FC5659;
+border:1px solid #FC5659;
+}
+
+/*聊天、成员、公告   */
+
+ Tabwidget QTabWidget::pane{ 
+	border-top:2px solid #404248;
+}
+
+
+QTabBar::tab{
+min-width:106px;
+min-height:35px;
+max-width:106px;
+font: 14px "微软雅黑";
+color:rgb(153, 153, 153);
+border:0px;
+background-color:rgb(67, 67, 67);
+}
+
+QTabBar::tab:selected,QTabBar::tab:hover{
+	color:rgb(221, 221, 199);
+	border-bottom-color:#fc5659;
+	border-bottom-width: 2px;
+	border-style:solid;
+}
+
+
+QTabBar{
+	background-color: rgb(67, 67, 67);
+}
+
+QTabWidget{
+	background-color: rgb(67, 67, 67);
+	border:0px solid #ff0000;
+	padding:0px;
+	margin:0px;
+}

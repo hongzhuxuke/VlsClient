@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{c9fa94fc-d3da-4fd8-86b7-e1601c56ac2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{de62463b-e50d-4215-b22d-27a6257b7862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common">
+      <UniqueIdentifier>{7a63fac8-5c35-42da-a453-e99dd1a44561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\baseclass">
+      <UniqueIdentifier>{00db178b-50a1-42d1-91b1-b742bd5452e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\message">
+      <UniqueIdentifier>{2e6cb8d4-52c1-4027-9533-897fd44aa704}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\BaseThread.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\HttpReqLogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_HttpCenter.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\CommonData.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\PublishInfo.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\PluginBase.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\CommonToolKitIns.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="HttpCenter.def">
+      <Filter>Project</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\BaseThread.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\HttpReqLogic.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_HttpCenter.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\CommonData.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\PublishInfo.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\PluginBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Instance\CommonToolKitIns.h">
+      <Filter>Instance</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

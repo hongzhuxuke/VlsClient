@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\common\baseclass\BaseThread.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\PluginBase.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\OBSControlIns.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\OBSControlLogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_OBSControl.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\PublishInfo.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ConfigSetting.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\DeviceManager.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\AudioControl.cpp">
+      <Filter>Logical\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\DeviceObtain.cpp">
+      <Filter>Logical\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_CommonToolKit.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UtilityTool.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\vhavdatasourcestatus.cpp">
+      <Filter>Logical\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_MainUI.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logic\CoreAudio.cpp">
+      <Filter>Logical\Control</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathManage.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathmanager.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\pub.Struct.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CoreAudio.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CoreAudio.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_CoreAudio.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\baseclass\BaseThread.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\PluginBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Instance\OBSControlIns.h">
+      <Filter>Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_OBSControl.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\PublishInfo.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ConfigSetting.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\DeviceManager.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\AudioControl.h">
+      <Filter>Logical\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\DeviceObtain.h">
+      <Filter>Logical\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_CommonToolKit.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\UtilityTool.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\vhavdatasourcestatus.h">
+      <Filter>Logical\Control</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_MainUI.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathManage.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathmanager.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Const.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Struct.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Logic\OBSControlLogic.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{8e366a2e-3256-47af-90bc-08159c748b80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{c855f94e-ad07-4d0a-be89-5e8903883168}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{c6999a88-13d7-45c3-8fa2-14e32da0a391}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{83ff477e-283d-4bdd-8407-166e13d48b98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common">
+      <UniqueIdentifier>{5bd1306a-5b71-4413-b9e0-cc882252230b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\baseclass">
+      <UniqueIdentifier>{67d2ca88-3c2f-455e-b56b-08c4b39e4b47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\message">
+      <UniqueIdentifier>{ba9b9340-7c36-42fe-858a-acc37f685e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical\Control">
+      <UniqueIdentifier>{83710f76-a792-4ec9-b7f5-39be306cb267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{409cb54e-b95d-4fa6-8cf0-881155a18e61}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3c0617b0-97c1-4e13-be83-f207bef98582}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="OBSControl.def">
+      <Filter>Project</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\Logic\CoreAudio.h">
+      <Filter>Logical\Control</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>

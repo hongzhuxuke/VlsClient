@@ -1,0 +1,7 @@
+; CommonToolKit.def : Declares the module parameters for the DLL.
+
+LIBRARY      "CommonToolKit"
+
+EXPORTS
+	GetClassObject
+    ; Explicit exports can go here

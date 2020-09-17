@@ -1,0 +1,67 @@
+[
+    {
+        "rtmpURL": "rtmp://139.129.165.242:1945/vhall",
+        "streamname": "test_multi_1",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba",
+        "multi_num":5,
+	"multi_buf_size":10000000
+    },
+    {
+        "rtmpURL": "rtmp://139.129.165.242:1945/vhall",
+        "streamname": "test_multi_2",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba",
+        "multi_num":5,
+	"multi_buf_size":10000000
+    },
+    {
+        "rtmpURL": "rtmp://139.129.165.242:1945/vhall",
+        "streamname": "test_multi_3",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba",
+        "multi_num":5,
+	"multi_buf_size":10000000
+    },
+    {
+        "rtmpURL": "rtmp://139.129.165.242:1945/vhall",
+        "streamname": "test_multi_4",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba",
+        "multi_num":5,
+	"multi_buf_size":10000000
+    },
+    {
+        "rtmpURL": "rtmp://139.129.165.242/vhall",
+        "streamname": "test_narmal_1",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba"
+    }£¬
+    {
+        "rtmpURL": "rtmp://139.129.165.242/vhall",
+        "streamname": "test_narmal_2",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba"
+    }£¬
+    {
+        "rtmpURL": "rtmp://139.129.165.242/vhall",
+        "streamname": "test_narmal_3",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba"
+    }£¬
+    {
+        "rtmpURL": "rtmp://139.129.165.242/vhall",
+        "streamname": "test_narmal_4",
+        "strPass": "",
+        "strUser": "",
+        "token": "alibaba"
+    }
+
+]

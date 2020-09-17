@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>VHDesktopVideo</class>
+ <widget class="QWidget" name="VHDesktopVideo">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>216</width>
+    <height>264</height>
+   </rect>
+  </property>
+  <property name="cursor">
+   <cursorShape>SizeVerCursor</cursorShape>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:#646464
+
+</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_4">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QWidget" name="top" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>4</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>4</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>SizeVerCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(60,60,60);</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="left_top" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeFDiagCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="left" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeHorCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="left_down" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeBDiagCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="gridLayout">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="video0" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:black</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="video1" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>200</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>200</width>
+           <height>120</height>
+          </size>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:black</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <property name="spacing">
+        <number>0</number>
+       </property>
+       <item>
+        <widget class="QWidget" name="right_top" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeBDiagCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="right" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>0</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>16777215</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeHorCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QWidget" name="right_down" native="true">
+         <property name="minimumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="maximumSize">
+          <size>
+           <width>4</width>
+           <height>4</height>
+          </size>
+         </property>
+         <property name="cursor">
+          <cursorShape>SizeFDiagCursor</cursorShape>
+         </property>
+         <property name="styleSheet">
+          <string notr="true">background-color:rgb(60,60,60);</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QWidget" name="down" native="true">
+     <property name="minimumSize">
+      <size>
+       <width>0</width>
+       <height>4</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>16777215</width>
+       <height>4</height>
+      </size>
+     </property>
+     <property name="cursor">
+      <cursorShape>SizeVerCursor</cursorShape>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(60,60,60);</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+  <zorder>down</zorder>
+  <zorder>top</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

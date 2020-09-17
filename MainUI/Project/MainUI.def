@@ -1,0 +1,7 @@
+; MainUI.def : Declares the module parameters for the DLL.
+
+LIBRARY      "MainUI"
+
+EXPORTS
+	GetClassObject
+    ; Explicit exports can go here

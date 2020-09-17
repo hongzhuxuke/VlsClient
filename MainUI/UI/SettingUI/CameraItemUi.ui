@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CameraItem</class>
+ <widget class="QWidget" name="CameraItem">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>236</width>
+    <height>40</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>CameraItem</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>2</number>
+   </property>
+   <property name="leftMargin">
+    <number>5</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>4</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QCheckBox" name="checkBox_camera">
+     <property name="enabled">
+      <bool>true</bool>
+     </property>
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox {font: 12px bold; color:rgb(150,150,150);}
+QCheckBox:disabled {font: 12px bold; color: rgb(142, 142, 142);}
+QCheckBox::indicator {width: 12px; height: 12px;}
+QCheckBox::indicator:checked {border-image:url(:/desktopSharing/img/desktopSharing/checked.png);}
+QCheckBox::indicator:unchecked {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}
+QCheckBox::indicator:checked:disabled {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}
+QCheckBox::indicator:unchecked:disabled {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}
+</string>
+     </property>
+     <property name="text">
+      <string>摄像头</string>
+     </property>
+     <property name="checkable">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QCheckBox" name="checkBox_fullScreen">
+     <property name="sizePolicy">
+      <sizepolicy hsizetype="Minimum" vsizetype="Expanding">
+       <horstretch>0</horstretch>
+       <verstretch>0</verstretch>
+      </sizepolicy>
+     </property>
+     <property name="minimumSize">
+      <size>
+       <width>60</width>
+       <height>0</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>60</width>
+       <height>16777215</height>
+      </size>
+     </property>
+     <property name="focusPolicy">
+      <enum>Qt::NoFocus</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QCheckBox {font: 12px bold; color:rgb(150,150,150);}
+QCheckBox:disabled {font: 12px bold; color: rgb(142, 142, 142);}
+QCheckBox::indicator {width: 12px; height: 12px;}
+QCheckBox::indicator:checked {border-image:url(:/desktopSharing/img/desktopSharing/checked.png);}
+QCheckBox::indicator:unchecked {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}
+QCheckBox::indicator:checked:disabled {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}
+QCheckBox::indicator:unchecked:disabled {border-image:url(:/desktopSharing/img/desktopSharing/unckeck.png);}</string>
+     </property>
+     <property name="text">
+      <string>全屏</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QPushButton" name="pushButton_hideRender">
+     <property name="minimumSize">
+      <size>
+       <width>38</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="maximumSize">
+      <size>
+       <width>38</width>
+       <height>20</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">border-image: url(:/button/images/guanbi.png);</string>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../../../VhallLive/project/VhallLive.qrc"/>
+  <include location="../../Project/MainUI.qrc"/>
+ </resources>
+ <connections/>
+</ui>

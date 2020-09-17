@@ -1,0 +1,2328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\..\common\baseclass\BaseThread.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\PluginBase.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UACUtility.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_MainUI.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_CommonToolKit.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_OBSControl.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBox.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBoxItem.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ConfigSetting.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\PublishInfo.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\push_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\start_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\title_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\VhallViewWidget.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\VHDialog.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\MainUIIns.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\MainUILogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\SettingLogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\VedioPlayLogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\SettingSub\CameraMgrLogic.cpp">
+      <Filter>Logical\SettingSub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\SettingSub\WindowSettingLogic.cpp">
+      <Filter>Logical\SettingSub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\SettingSub\SysSettingLogic.cpp">
+      <Filter>Logical\SettingSub</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\HoverLabel.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\MediaItem.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\MediaList.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\RenderWnd.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TimerClock.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallprocessslider.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\volumedisplay_wiget.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallmiccontrol.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallmenuwidgetitem.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallmenuwidget.cpp">
+      <Filter>UI\Original</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\CameraItemUi.cpp">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\CameraMgrUI.cpp">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\CameraModifyUI.cpp">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\ImageSettingDlg.cpp">
+      <Filter>UI\SettingUI\ImageSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\SystemSettingDlg.cpp">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\TextSettingDlg.cpp">
+      <Filter>UI\SettingUI\TextSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\WindowSettingDlg.cpp">
+      <Filter>UI\SettingUI\WindowSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\SettingSub\TextSettingLogic.cpp">
+      <Filter>Logical\SettingSub</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VedioPlayUI\VedioPlayUI.cpp">
+      <Filter>UI\VedioPlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\MultiMediaUI.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VedioPlayUI\VideoChoiceUI.cpp">
+      <Filter>UI\VedioPlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UpLoader.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhproxytest.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_VhallRightExtraWidget.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VhallRightExtraWidget\UI\vhallextrawidgetuserinfo.cpp">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\VhallRightExtraWidget\UI\vhallnetworkimagelabel.cpp">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhallexitwidget.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhallteaching.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhalltechingtip.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\NoiseSettingSlider.cpp">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\SettingUI\NoiseTooltip.cpp">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\InviteJoinWidget.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhallmenu.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhallwaiting.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathManage.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathmanager.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\VhallActivityModeChoiceDlg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallLiveMainDlg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Logging.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\pub.Struct.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\PluginDataProcessor.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhsqllite.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhalljoinactivity.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallLiveListViewDlg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\cbasedlg.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\HttpProxyGet.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhnetworkproxy.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhnetworktips.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\httptaskworkthread.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\httpnetwork.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallRenderWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallLiveTitle.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallRenderMaskWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallIALive.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\CWidget.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhalluserinfomanager.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\MemberItemWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\vhAliveinteraction.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\MemberCtrlMaskWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\CToolTips.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\CPaintStateBtn.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\suspensionDlg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\CMyButton.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_WindowSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_WindowSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_volumedisplay_wiget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_volumedisplay_wiget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VideoChoiceUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VideoChoiceUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhupdatetips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhupdatetips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhprocessbar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhprocessbar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhnetworktips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhnetworktips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhfadeouttipwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhfadeouttipwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VHDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VHDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhdesktopvideo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhdesktopvideo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhdesktoptip.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhdesktoptip.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhdesktopsharingui.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhdesktopsharingui.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhareamark.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhareamark.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallwaiting.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallwaiting.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallViewWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallViewWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhalltechingtip.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhalltechingtip.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallteaching.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallteaching.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallsharedqr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallsharedqr.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallRenderWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallRenderWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallRenderMaskWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallRenderMaskWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallprocessslider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallprocessslider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallmiccontrol.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallmiccontrol.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallmenuwidgetitem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallmenuwidgetitem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallmenuwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallmenuwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallmenu.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallmenu.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallLiveTitle.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallLiveTitle.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallLiveListViewDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallLiveListViewDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhalljoinactivity.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhalljoinactivity.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallIALive.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallextrawidgetuserinfo.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallextrawidgetuserinfo.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallexitwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallexitwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhalldebugform.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhalldebugform.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallActivityModeChoiceDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallActivityModeChoiceDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhAliveinteraction.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhAliveinteraction.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VedioPlayUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VedioPlayUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VedioPlayLogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VedioPlayLogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_UpLoader.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_UpLoader.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolButtonEx.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolButtonEx.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolBarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolBarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_title_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_title_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TimerClock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TimerClock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TextSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TextSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SysSettingLogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SysSettingLogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_suspensionDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_suspensionDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_start_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_start_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RenderWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RenderWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_push_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_push_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PluginDataProcessor.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PluginDataProcessor.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoiseTooltip.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoiseTooltip.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoiseSettingSlider.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoiseSettingSlider.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MultiMediaUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MultiMediaUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberItemWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberItemWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberCtrlMaskWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberCtrlMaskWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaList.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaList.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MediaItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MediaItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InviteJoinWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InviteJoinWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ImageSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ImageSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_httptaskworkthread.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_httptaskworkthread.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_httpnetwork.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_httpnetwork.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_HoverLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_HoverLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cvoicetranslatewdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cvoicetranslatewdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CToolTips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CToolTips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CMyButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CMyButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CInterActiveCtrlWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CInterActiveCtrlWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CaptureSrcUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CaptureSrcUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraModifyUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraModifyUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraMgrUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraMgrUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraItemUi.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraItemUi.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AudioSliderUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AudioSliderUI.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallLivePlugInUnitDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallLivePlugInUnitDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FullScreenLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FullScreenLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhnetworkproxy.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhnetworkproxy.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MainUILogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MainUILogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SystemSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SystemSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallloginwidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallloginwidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhproxytest.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhproxytest.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallIALive.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallLiveMainDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallLiveMainDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_MainUI.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallIALiveSettingDlg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallIALiveSettingDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallIALiveSettingDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleBarWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleBarWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhhttp.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhhttp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhhttp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhhttp.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhsqllite.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhsqllite.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_vhsqllite.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RecordDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RecordDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\ApplyJoinWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ApplyJoinWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhallnetworkimagelabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhallnetworkimagelabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTimeButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\CTimeButton.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LiveContentCtrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LiveContentCtrl.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PerformanceStatistics.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_RunningStateWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\RunningStateWdg.cpp">
+      <Filter>UI\RunningState</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VSSAPIManager.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VSSAPIManager.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VSSAPIManager.cpp">
+      <Filter>VSSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VHPaasSDKCallback.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VHPaasSDKCallback.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberParam.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberParam.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\MemberParam.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\SocketMsgParam.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ButtonWdg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ButtonWdg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InteractAPIManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InteractAPIManager.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_webinarIdWdg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_webinarIdWdg.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\InteractAPIManager.cpp">
+      <Filter>VSSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VHPaasSDKCallback.cpp">
+      <Filter>VSSAPI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ButtonModTextWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ButtonModTextWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\BtnMenuWdg.cpp">
+      <Filter>UI\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_BtnMenuWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_BtnMenuWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LiveToolDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CPaintLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TabWidget\CTabBar.cpp">
+      <Filter>TabWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTabBar.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTabBar.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TabWidget\CTabItemDlg.cpp">
+      <Filter>TabWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTabItemDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TabWidget\CTabWidget.cpp">
+      <Filter>TabWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CTabWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\Notice\NoticeSendWdg.cpp">
+      <Filter>UI\Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticeSendWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticeSendWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\Notice\NoticeItem.cpp">
+      <Filter>UI\Notice</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_NoticeItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_NoticeItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ApplyJoinWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTimeButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_RunningStateWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LeftToolWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\PerformanceStatistics.cpp">
+      <Filter>UI\RunningState</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TabWidget\CPaintLabel.cpp">
+      <Filter>TabWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\webinarIdWdg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhprocessbar.cpp">
+      <Filter>UI\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhupdatetips.cpp">
+      <Filter>UI\Update</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhfadeouttipwidget.cpp">
+      <Filter>UI\vhfadeouttipwidget</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhdesktopsharingui.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhdesktoptip.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhdesktopvideo.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhareamark.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallsharedqr.cpp">
+      <Filter>UI\sharedqr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhallloginwidget.cpp">
+      <Filter>UI\login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\VhallLivePlugInUnitDlg.cpp">
+      <Filter>UI\LivePlugInUnit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\vhalldebugform.cpp">
+      <Filter>UI\debugform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\TitleBarWidget.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\TitleWidget.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ToolBarWidget.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ToolButtonEx.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\RecordDlg.cpp">
+      <Filter>UI\Record</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LeftToolWdg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\FullScreenLabel.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\cvoicetranslatewdg.cpp">
+      <Filter>UI\voicetranslate</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\CInterActiveCtrlWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ButtonModTextWdg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ButtonWdg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ToolButton.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\CaptureSrcUI.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\AudioSliderUI.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LiveTool\LiveToolDlg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LeftToolWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CPaintLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LiveToolDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\CLabel.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_CLabel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CLabel.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CLabel.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_CLabel.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_CameraTeachTips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CameraTeachTips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\CameraTeachTips.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ShowTipsWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ShowTipsWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LiveTool\ShowTipsWdg.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ShowTipsItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ShowTipsItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LiveTool\ShowTipsItem.cpp">
+      <Filter>UI\LiveTool</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PerformanceStatistics.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AreaCloseWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AreaCloseWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\AreaCloseWdg.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopShareSelectWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopShareSelectWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DesktopShareSelectWdg.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopSharePreviewItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopSharePreviewItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DesktopSharePreviewItem.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTabItemDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopCameraRenderWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopCameraRenderWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DesktopCameraRenderWdg.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_PicturePreviewWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\PicturePreviewWdg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VHBaseWnd.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VHBaseWnd.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VHBaseWnd.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FullDocWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FullDocWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\FullDocWdg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_PicturePreviewWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AlertTipsDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\AlertTipsDlg.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AlertTipsDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopWarnningTips.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopWarnningTips.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DesktopWarnningTips.cpp">
+      <Filter>UI\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_FullDocEscTipWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_FullDocEscTipWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\FullDocEscTipWdg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LiveContentCtrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LibCefViewWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LibCefViewWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\LibCefViewWdg.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DesktopCameraCtrl.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DesktopCameraCtrl.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DesktopCameraCtrl.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallConfigBroadCast.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallConfigBroadCast.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\VhallConfigBroadCast.cpp">
+      <Filter>Resource Files\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\MemberListWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberListWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\menuItem.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_menuItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_menuItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\menuWdg.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_menuWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_menuWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\cmapButton.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cmapButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cmapButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberBackgroud.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberBackgroud.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\MemberBackgroud.cpp">
+      <Filter>UI\MainUI</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberListWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ThreadToopTask.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ThreadToopTask.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\ThreadToopTask.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DeviceTestingWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DeviceTestingWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\DeviceTestingWdg.cpp">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VolumePaintWdg.cpp">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VolumePaintWdg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VolumePaintWdg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="RtcGetDeviceList.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="..\UI\VhallIALive\MemberListWidgetDelegate.cpp">
+      <Filter>VhallIALive</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MemberListWidgetDelegate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MemberListWidgetDelegate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseTencent\moc_CTabWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_CTabWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\ReleaseHieLog\moc_CTabWidget.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\common\message\Msg_VhallRightExtraWidget.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathManage.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathmanager.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Logging.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Const.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Struct.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\HttpProxyGet.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="priConst.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\vhalluserinfomanager.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\VedioPlayUI\VhallUI_define.h">
+      <Filter>VhallIALive</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\CPaintStateBtn.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VhallIALiveSettingDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ApplyJoinWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VhallLiveMainDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LiveContentCtrl.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RunningStateWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\SocketMsgParam.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CaptureSrcUI.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_webinarIdWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_RecordDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_BtnMenuWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CTabItemDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NoticeSendWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_NoticeItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LeftToolWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LiveToolDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LiveToolWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_CameraTeachTips.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ShowTipsWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ShowTipsItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AreaCloseWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DesktopShareSelectWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DesktopSharePreviewItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DesktopCameraRenderWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_PicturePreviewWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FullDocWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_AlertTipsDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DesktopWarnningTips.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_FullDocEscTipWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DesktopCameraCtrl.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MemberListWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_menuItem.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_menuWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_MemberBackgroud.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VhallLiveListViewDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\UI\VhallIALive\arraysize.h">
+      <Filter>VhallIALive</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_DeviceTestingWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_VolumePaintWdg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RtcGetDeviceList.h">
+      <Filter>VhallIALive</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\baseclass\BaseThread.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\baseclass\PluginBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\UACUtility.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\message\Msg_CommonToolKit.h">
+      <Filter>Depend\common\message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\message\Msg_MainUI.h">
+      <Filter>Depend\common\message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\message\Msg_OBSControl.h">
+      <Filter>Depend\common\message</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ComboBox.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ComboBoxItem.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ConfigSetting.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\PublishInfo.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\push_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\start_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\title_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\VhallViewWidget.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\VHDialog.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Instance\MainUIIns.h">
+      <Filter>Instance</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\MainUILogic.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\SettingLogic.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\VedioPlayLogic.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\SettingSub\CameraMgrLogic.h">
+      <Filter>Logical\SettingSub</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\SettingSub\WindowSettingLogic.h">
+      <Filter>Logical\SettingSub</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\SettingSub\SysSettingLogic.h">
+      <Filter>Logical\SettingSub</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI.def">
+      <Filter>Project</Filter>
+    </CustomBuild>
+    <CustomBuild Include="stdafx.h">
+      <Filter>Project</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\HoverLabel.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MediaItem.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MediaList.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\RenderWnd.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TimerClock.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallprocessslider.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\volumedisplay_wiget.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallmiccontrol.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallmenuwidgetitem.ui">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallmenuwidgetitem.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallmenuwidget.ui">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallmenuwidget.h">
+      <Filter>UI\Original</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraItemUi.h">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraItemUi.ui">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraMgrUI.h">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraMgrUI.ui">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraModifyUI.h">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\CameraModifyUI.ui">
+      <Filter>UI\SettingUI\CameraMgr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\ImageSettingDlg.h">
+      <Filter>UI\SettingUI\ImageSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\ImageSettingDlg.ui">
+      <Filter>UI\SettingUI\ImageSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\SystemSettingDlg.h">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\SystemSettingUI.ui">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\TextSettingDlg.h">
+      <Filter>UI\SettingUI\TextSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\TextSettingUI.ui">
+      <Filter>UI\SettingUI\TextSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\WindowSettingDlg.h">
+      <Filter>UI\SettingUI\WindowSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\WindowSettingUI.ui">
+      <Filter>UI\SettingUI\WindowSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\SettingSub\TextSettingLogic.h">
+      <Filter>Logical\SettingSub</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VedioPlayUI\VedioPlayUI.h">
+      <Filter>UI\VedioPlayUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MultiMediaUI.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VedioPlayUI\VideoChoiceUI.h">
+      <Filter>UI\VedioPlayUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\UpLoader.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\VhallRightExtraWidget\UI\vhallextrawidgetuserinfo.h">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\VhallRightExtraWidget\UI\vhallextrawidgetuserinfo.ui">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\VhallRightExtraWidget\UI\vhallnetworkimagelabel.h">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\VhallRightExtraWidget\UI\vhallnetworkimagelabel.ui">
+      <Filter>UI\VhallRightExtraWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallexitwidget.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallexitwidget.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallteaching.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallteaching.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhalltechingtip.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhalltechingtip.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\NoiseSettingSlider.h">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\NoiseSettingSlider.ui">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\NoiseTooltip.h">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\SettingUI\NoiseTooltip.ui">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\InviteJoinWidget.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\InviteJoinWidget.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallmenu.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallmenu.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallwaiting.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallwaiting.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhallactivitymodechoicedlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallLiveMainDlg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\VhallActivityModeChoiceDlg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\PluginDataProcessor.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhsqllite.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhalljoinactivity.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhalljoinactivity.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallLiveListViewDlg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhproxytest.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\cbasedlg.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworkproxy.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworkproxy.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworktips.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhnetworktips.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\httptaskworkthread.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\httpnetwork.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallRenderWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallRenderWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallLiveTitle.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallLiveTitle.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallRenderMaskWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallRenderMaskWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallIALive.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallIALive.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\CWidget.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MainUI.qrc">
+      <Filter>Project</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberItemWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\OnlineItemWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\RaiseHandsItemWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\kickOutItemWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\vhAliveinteraction.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberCtrlMaskWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberCtrlMaskWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\CToolTips.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\CToolTips.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\ProhibitChatItemWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\suspensionDlg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\suspensionDlg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\CMyButton.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallIALiveSettingDlg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallIALiveSettingDlg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhhttp.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\ApplyJoinWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\ApplyJoinWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallLiveMainDlg.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CTimeButton.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveContentCtrl.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveContentCtrl.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\RunningStateWdg.h">
+      <Filter>UI\RunningState</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\RunningStateWdg.ui">
+      <Filter>UI\RunningState</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VSSAPIManager.h">
+      <Filter>VSSAPI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MemberParam.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\InteractAPIManager.h">
+      <Filter>VSSAPI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VHPaasSDKCallback.h">
+      <Filter>VSSAPI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\BtnMenuWdg.h">
+      <Filter>UI\menu</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\BtnMenuWdg.ui">
+      <Filter>UI\menu</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TabWidget\CTabBar.h">
+      <Filter>TabWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TabWidget\CTabItemDlg.h">
+      <Filter>TabWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TabWidget\CTabItemDlg.ui">
+      <Filter>TabWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TabWidget\CTabWidget.h">
+      <Filter>TabWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\Notice\NoticeSendWdg.h">
+      <Filter>UI\Notice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\Notice\NoticeSendWdg.ui">
+      <Filter>UI\Notice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\Notice\NoticeItem.h">
+      <Filter>UI\Notice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\Notice\NoticeItem.ui">
+      <Filter>UI\Notice</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\PerformanceStatistics.h">
+      <Filter>UI\RunningState</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TabWidget\CPaintLabel.h">
+      <Filter>TabWidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\webinarIdWdg.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\webinarIdWdg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhupdatetips.ui">
+      <Filter>UI\Update</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhprocessbar.h">
+      <Filter>UI\Update</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhprocessbar.ui">
+      <Filter>UI\Update</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhupdatetips.h">
+      <Filter>UI\Update</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhfadeouttipwidget.h">
+      <Filter>UI\vhfadeouttipwidget</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktopvideo.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktopsharingui.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktopsharingui.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktoptip.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktoptip.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhdesktopvideo.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhareamark.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhareamark.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallsharedqr.ui">
+      <Filter>UI\sharedqr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallsharedqr.h">
+      <Filter>UI\sharedqr</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallloginwidget.ui">
+      <Filter>UI\login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhallloginwidget.h">
+      <Filter>UI\login</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\VhallLivePlugInUnitDlg.ui">
+      <Filter>UI\LivePlugInUnit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\VhallLivePlugInUnitDlg.h">
+      <Filter>UI\LivePlugInUnit</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhalldebugform.ui">
+      <Filter>UI\debugform</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\vhalldebugform.h">
+      <Filter>UI\debugform</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\ToolButtonEx.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\TitleBarWidget.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\TitleWidget.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\ToolBarWidget.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\RecordDlg.ui">
+      <Filter>UI\Record</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\RecordDlg.h">
+      <Filter>UI\Record</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LeftToolWdg.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LeftToolWdg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\FullScreenLabel.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\cvoicetranslatewdg.ui">
+      <Filter>UI\voicetranslate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\cvoicetranslatewdg.h">
+      <Filter>UI\voicetranslate</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CInterActiveCtrlWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CInterActiveCtrlWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ToolButton.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\ButtonModTextWdg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\ButtonWdg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CaptureSrcUI.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CaptureSrcUI.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\AudioSliderUI.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\LiveToolDlg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\LiveToolDlg.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\LiveToolWdg.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\CLabel.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CameraTeachTips.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\CameraTeachTips.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\ShowTipsWdg.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\ShowTipsWdg.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\ShowTipsItem.ui">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LiveTool\ShowTipsItem.h">
+      <Filter>UI\LiveTool</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\AreaCloseWdg.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\AreaCloseWdg.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopShareSelectWdg.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopShareSelectWdg.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopSharePreviewItem.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopSharePreviewItem.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopCameraRenderWdg.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopCameraRenderWdg.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\PicturePreviewWdg.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\PicturePreviewWdg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VHBaseWnd.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\FullDocWdg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\FullDocWdg.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\AlertTipsDlg.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\AlertTipsDlg.ui">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopWarnningTips.ui">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopWarnningTips.h">
+      <Filter>UI\desktop</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\FullDocEscTipWdg.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\FullDocEscTipWdg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\LibCefViewWdg.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopCameraCtrl.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DesktopCameraCtrl.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\VhallConfigBroadCast.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberListWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberListWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\menuItem.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\menuItem.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\menuWdg.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\menuWdg.ui">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\cmapButton.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MemberBackgroud.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\MemberBackgroud.h">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\ThreadToopTask.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallLiveListViewDlg.ui">
+      <Filter>UI\MainUI</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DeviceTestingWdg.h">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\DeviceTestingWdg.ui">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VolumePaintWdg.h">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VolumePaintWdg.ui">
+      <Filter>UI\SettingUI\SysSetting</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\UI\VhallIALive\MemberListWidgetDelegate.h">
+      <Filter>VhallIALive</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{f7184c88-c0c9-4c50-bb81-d89e4f2c225d}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{3463bb16-8ea0-4c86-9f52-97bf8928d7ee}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{48f0926d-b633-4dd4-bd03-579070919376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{6fcf7ae4-54b9-4b87-87cd-4c35dde17002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{6fdd8ca4-2938-4952-9d74-e1e613c76e1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{dcb84038-d472-49f2-879e-26b5809d2fc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{019f811a-4719-443f-ad00-71e971faf606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common">
+      <UniqueIdentifier>{35bf4071-ba9d-43ce-8846-575248281e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\baseclass">
+      <UniqueIdentifier>{e0cfd29c-e1be-4b9c-9202-c9d9bf1f5c4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\message">
+      <UniqueIdentifier>{b77c52b8-991d-43d4-a135-00e3c158d976}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical\SettingSub">
+      <UniqueIdentifier>{735c2bd3-89c6-4a68-b2d7-f1d0d59c87df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\MainUI">
+      <UniqueIdentifier>{86cfdc20-9343-432a-886a-9db0f4bdb45b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Original">
+      <UniqueIdentifier>{533481c9-d587-4ec5-95d8-d21439328020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI">
+      <UniqueIdentifier>{c0e0672f-b4fb-4fea-be78-e21abed864d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\VedioPlayUI">
+      <UniqueIdentifier>{b89be7cc-663a-4178-8280-4b159165e4aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI\CameraMgr">
+      <UniqueIdentifier>{d615378e-8ff9-4f52-966a-0ff9aef7ef38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI\ImageSetting">
+      <UniqueIdentifier>{b064d4cb-738e-4747-9a4a-201a248c9058}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI\SysSetting">
+      <UniqueIdentifier>{d9d71318-90b1-4871-b66f-b5d7494236b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI\TextSetting">
+      <UniqueIdentifier>{6cfa232c-57a2-45de-a9ad-55cb64f4e985}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\SettingUI\WindowSetting">
+      <UniqueIdentifier>{777ed3b9-34bf-4cca-aa11-e1bb7794fb16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\VhallRightExtraWidget">
+      <UniqueIdentifier>{1432af5d-458d-4d6a-9e00-a59f1df23d7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+    <Filter Include="VhallIALive">
+      <UniqueIdentifier>{f039de08-9dee-46fb-bc1d-88c529a3bc55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="UI\menu">
+      <UniqueIdentifier>{9f27d12e-8aa9-4c9d-ba72-d7de94dad7f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\RunningState">
+      <UniqueIdentifier>{4331fce3-a6ae-41bb-a147-7eda2cdf0cb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="VSSAPI">
+      <UniqueIdentifier>{6305ae68-8c51-43bd-a238-25807f0559b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Notice">
+      <UniqueIdentifier>{6ebbbd1d-63b2-4574-82c5-5c356a1b7506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TabWidget">
+      <UniqueIdentifier>{071d92c3-b675-47fc-bf83-69a84ed79b76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\LiveTool">
+      <UniqueIdentifier>{d89adab1-4ba5-4f6a-bd19-26561b8cb4be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Update">
+      <UniqueIdentifier>{e6e5a41b-88d6-420a-b37c-e667b8ba34c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\vhfadeouttipwidget">
+      <UniqueIdentifier>{926ad3d6-7c87-41c8-bead-8250f8419690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\desktop">
+      <UniqueIdentifier>{05a8bf92-81e6-459f-8dc7-eaf5beaa4df4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\sharedqr">
+      <UniqueIdentifier>{eb21c99a-7959-49ff-85cd-b3347b986b40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\login">
+      <UniqueIdentifier>{c8e8c39e-aa81-4421-85ef-5787eeb77d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\LivePlugInUnit">
+      <UniqueIdentifier>{6da4b4c5-833c-4425-babf-bab4bb48bf6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\debugform">
+      <UniqueIdentifier>{f546a5c9-0d8f-4c74-81b8-6213a9a178bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\Record">
+      <UniqueIdentifier>{c639390e-eeb6-4a8a-b1ed-2b427e7af588}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI\voicetranslate">
+      <UniqueIdentifier>{4fe62faa-62a3-4702-b267-8e8e488828d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+      <ParseFiles>true</ParseFiles>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="images\assistant.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\guest.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\host.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="MessageDispatcher">
+      <UniqueIdentifier>{556f18d1-41d4-4488-8539-d6965bb7d882}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{9d322249-ee3f-4d2f-8d8b-e121b262b5b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{6fed83ae-9a39-416e-abbe-c2b1d9d529df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="project">
+      <UniqueIdentifier>{65c6814e-734c-4f63-81ca-0cfd352b70ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>project</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageDispatcher.cpp">
+      <Filter>MessageDispatcher</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>project</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageDispatcher.h">
+      <Filter>MessageDispatcher</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

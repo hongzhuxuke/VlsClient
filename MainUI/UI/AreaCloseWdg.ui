@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AreaCloseWdg</class>
+ <widget class="QWidget" name="AreaCloseWdg">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>94</width>
+    <height>23</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>AreaCloseWdg</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <layout class="QHBoxLayout" name="horizontalLayout">
+   <property name="spacing">
+    <number>0</number>
+   </property>
+   <property name="leftMargin">
+    <number>0</number>
+   </property>
+   <property name="topMargin">
+    <number>0</number>
+   </property>
+   <property name="rightMargin">
+    <number>0</number>
+   </property>
+   <property name="bottomMargin">
+    <number>0</number>
+   </property>
+   <item>
+    <widget class="QPushButton" name="pushButton">
+     <property name="maximumSize">
+      <size>
+       <width>63</width>
+       <height>23</height>
+      </size>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">
+QPushButton{
+border-image: url(:/MonitorAreaCapture/img/MonitorAreaCapture/closeBtnHover.png);
+background-color:rgb(252, 86, 89); 
+color:rgb(255, 255, 255);
+border:1px solid rgb(252, 86, 89);
+font: 9pt &quot;微软雅黑&quot;;
+}
+
+
+
+</string>
+     </property>
+     <property name="text">
+      <string>关闭共享</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="../../VhallLive/project/VhallLive.qrc"/>
+ </resources>
+ <connections/>
+</ui>

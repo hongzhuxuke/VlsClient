@@ -1,0 +1,474 @@
+<RCC>
+  <qresource prefix="/toolWidget">
+    <file>img/toolWidget/copy.png</file>
+    <file>img/vhallactive/camera_click.png</file>
+    <file>img/vhallactive/camera_hover.png</file>
+    <file>img/vhallactive/camera_mute.png</file>
+    <file>img/vhallactive/camera_mute_click.png</file>
+    <file>img/vhallactive/camera_normal.png</file>
+    <file>img/vhallactive/closeCamera_1.png</file>
+    <file>img/vhallactive/closeCamera_2.png</file>
+    <file>img/vhallactive/guest_1.png</file>
+    <file>img/vhallactive/guest_2.png</file>
+    <file>img/vhallactive/host_1.png</file>
+    <file>img/vhallactive/host_2.png</file>
+    <file>img/vhallactive/main_view.png</file>
+    <file>img/vhallactive/main_view_click.png</file>
+    <file>img/vhallactive/main_view_hover.png</file>
+    <file>img/vhallactive/member_1.png</file>
+    <file>img/vhallactive/member_2.png</file>
+    <file>img/vhallactive/mic_click.png</file>
+    <file>img/vhallactive/mic_hover.png</file>
+    <file>img/vhallactive/mic_mute.png</file>
+    <file>img/vhallactive/mic_mute_click.png</file>
+    <file>img/vhallactive/mic_mute_hover.png</file>
+    <file>img/vhallactive/mic_normal.png</file>
+    <file>img/vhallactive/nojoin_1.png</file>
+    <file>img/vhallactive/nojoin_2.png</file>
+    <file>img/vhallactive/off_speak.png</file>
+    <file>img/vhallactive/off_speak_click.png</file>
+    <file>img/vhallactive/off_speak_hover.png</file>
+    <file>img/vhallactive/setspeaker.png</file>
+    <file>img/vhallactive/setspeaker_click.png</file>
+    <file>img/vhallactive/setspeaker_hover.png</file>
+    <file>img/vhallactive/speak.png</file>
+    <file>img/vhallactive/speak_click.png</file>
+    <file>img/vhallactive/speak_hover.png</file>
+    <file>img/toolWidget/RecordPopupBg.png</file>
+    <file>img/toolWidget/moveToBottom.png</file>
+    <file>img/toolWidget/moveToBottomDefault.png</file>
+    <file>img/toolWidget/moveToTop.png</file>
+    <file>img/toolWidget/moveToTopDefualt.png</file>
+    <file alias="startLive">img/toolWidget/startLive.png</file>
+    <file alias="stopLive">img/toolWidget/stopLive.png</file>
+    <file>img/toolWidget/toSpeak.png</file>
+    <file alias="mute">img/toolWidget/mute.png</file>
+    <file alias="Popup_bg">img/toolWidget/Popup_bg.png</file>
+    <file alias="devicePopup_gb">img/toolWidget/devicePopup_gb.png</file>
+    <file alias="stopShare">img/toolWidget/stopShare.png</file>
+    <file alias="volume">img/toolWidget/volume.png</file>
+    <file alias="audioSet">img/toolWidget/audioSet.png</file>
+  </qresource>
+  <qresource prefix="/camera">
+    <file>img/camera/CameraMgrUIDown.png</file>
+    <file>img/camera/CameraMgrUIItem.png</file>
+    <file>img/camera/CameraMgrUIUp.png</file>
+  </qresource>
+  <qresource prefix="/vhallActive">
+    <file>img/vhallactive/switch_doc.png</file>
+    <file>img/vhallactive/switch_doc_clicked.png</file>
+    <file>img/vhallactive/switch_doc_hover.png</file>
+    <file>img/vhallactive/camera.png</file>
+    <file>img/vhallactive/camera_close.png</file>
+    <file>img/vhallactive/camera.png</file>
+    <file>img/vhallactive/float_select.png</file>
+    <file>img/vhallactive/grid_select.png</file>
+    <file>img/vhallactive/tiled_select.png</file>
+    <file>img/vhallactive/float.png</file>
+    <file>img/vhallactive/grid.png</file>
+    <file>img/vhallactive/tiled.png</file>
+    <file>img/vhallactive/saving.png</file>
+    <file>img/vhallactive/closing.png</file>
+    <file>img/vhallactive/saving.png</file>
+    <file>img/vhallactive/live_end.png</file>
+    <file>img/vhallactive/live_no_start.png</file>
+    <file>img/vhallactive/camera_mute.png</file>
+    <file>img/vhallactive/camera_mute_click.png</file>
+    <file>img/vhallactive/camera_mute_hover.png</file>
+    <file>img/vhallactive/wait_background.png</file>
+    <file>img/vhallactive/tooltips.png</file>
+    <file>img/vhallactive/camera_mute_hover.png</file>
+    <file>img/vhallactive/camera_click.png</file>
+    <file>img/vhallactive/camera_hover.png</file>
+    <file>img/vhallactive/camera_mute.png</file>
+    <file>img/vhallactive/camera_normal.png</file>
+    <file>img/vhallactive/closeCamera_1.png</file>
+    <file>img/vhallactive/closeCamera_2.png</file>
+    <file>img/vhallactive/guest_1.png</file>
+    <file>img/vhallactive/guest_2.png</file>
+    <file>img/vhallactive/host_1.png</file>
+    <file>img/vhallactive/host_2.png</file>
+    <file>img/vhallactive/main_view.png</file>
+    <file>img/vhallactive/main_view_click.png</file>
+    <file>img/vhallactive/main_view_hover.png</file>
+    <file>img/vhallactive/member_1.png</file>
+    <file>img/vhallactive/member_2.png</file>
+    <file>img/vhallactive/mic_click.png</file>
+    <file>img/vhallactive/mic_hover.png</file>
+    <file>img/vhallactive/mic_mute.png</file>
+    <file>img/vhallactive/mic_mute_click.png</file>
+    <file>img/vhallactive/mic_mute_hover.png</file>
+    <file>img/vhallactive/mic_normal.png</file>
+    <file>img/vhallactive/nojoin_1.png</file>
+    <file>img/vhallactive/nojoin_2.png</file>
+    <file>img/vhallactive/off_speak.png</file>
+    <file>img/vhallactive/off_speak_click.png</file>
+    <file>img/vhallactive/off_speak_hover.png</file>
+    <file>img/vhallactive/setspeaker.png</file>
+    <file>img/vhallactive/setspeaker_click.png</file>
+    <file>img/vhallactive/setspeaker_hover.png</file>
+    <file>img/vhallactive/speak.png</file>
+    <file>img/vhallactive/speak_click.png</file>
+    <file>img/vhallactive/speak_hover.png</file>
+    <file>img/vhallactive/setspeaker.png</file>
+    <file>img/vhallactive/setspeaker_click.png</file>
+    <file>img/vhallactive/setspeaker_hover.png</file>
+    <file>img/vhallactive/speak.png</file>
+    <file>img/vhallactive/speak_click.png</file>
+    <file>img/vhallactive/speak_hover.png</file>
+    <file>img/vhallactive/main_view.png</file>
+    <file>img/vhallactive/main_view_click.png</file>
+    <file>img/vhallactive/main_view_hover.png</file>
+    <file>img/vhallactive/mic_click.png</file>
+    <file>img/vhallactive/mic_hover.png</file>
+    <file>img/vhallactive/mic_mute.png</file>
+    <file>img/vhallactive/mic_normal.png</file>
+    <file>img/vhallactive/camera_click.png</file>
+    <file>img/vhallactive/camera_hover.png</file>
+    <file>img/vhallactive/camera_mute.png</file>
+    <file>img/vhallactive/camera_normal.png</file>
+    <file>img/vhallactive/guest_1.png</file>
+    <file>img/vhallactive/guest_2.png</file>
+    <file>img/vhallactive/host_1.png</file>
+    <file>img/vhallactive/host_2.png</file>
+    <file>img/vhallactive/member_1.png</file>
+    <file>img/vhallactive/member_2.png</file>
+    <file>img/vhallactive/closeCamera_1.png</file>
+    <file>img/vhallactive/closeCamera_2.png</file>
+    <file>img/vhallactive/nojoin_1.png</file>
+    <file>img/vhallactive/nojoin_2.png</file>
+  </qresource>
+  <qresource prefix="/CtrlBtn">
+    <file>img/CtrlButton/live_tool_disenabled.png</file>
+    <file>img/CtrlButton/live_tool_disable.png</file>
+    <file>img/CtrlButton/live_tool_hover.png</file>
+    <file>img/CtrlButton/live_tool_normal.png</file>
+    <file>img/CtrlButton/live_plugin.png</file>
+    <file>img/CtrlButton/btnmemberWithHU.png</file>
+    <file>img/CtrlButton/btnmember.png</file>
+    <file>img/CtrlButton/arrow.png</file>
+    <file>img/CtrlButton/stopRecord.png</file>
+    <file>img/CtrlButton/recoveryRecord.png</file>
+    <file>img/CtrlButton/closeVoiceTranslate.png</file>
+    <file>img/CtrlButton/openVoiceTranslate.png</file>
+    <file>img/CtrlButton/sub_area_share.png</file>
+    <file>img/CtrlButton/sub_desktop_share.png</file>
+    <file>img/CtrlButton/sub_soft_share.png</file>
+    <file>img/CtrlButton/desktop_stream_status.png</file>
+    <file>img/CtrlButton/stop_live.png</file>
+    <file>img/CtrlButton/arrow.png</file>
+    <file>img/CtrlButton/camera_close.png</file>
+    <file>img/CtrlButton/camera_open.png</file>
+    <file>img/CtrlButton/chat.png</file>
+    <file>img/CtrlButton/desktop_share.png</file>
+    <file>img/CtrlButton/desktop_stream_status.png</file>
+    <file>img/CtrlButton/insertImage.png</file>
+    <file>img/CtrlButton/insertMediaFile.png</file>
+    <file>img/CtrlButton/insertText.png</file>
+    <file>img/CtrlButton/live_plugin.png</file>
+    <file>img/CtrlButton/media.png</file>
+    <file>img/CtrlButton/mic_0.png</file>
+    <file>img/CtrlButton/mic_10.png</file>
+    <file>img/CtrlButton/mic_30.png</file>
+    <file>img/CtrlButton/mic_50.png</file>
+    <file>img/CtrlButton/mic_70.png</file>
+    <file>img/CtrlButton/mic_90.png</file>
+    <file>img/CtrlButton/mic_100.png</file>
+    <file>img/CtrlButton/mic_close.png</file>
+    <file>img/CtrlButton/player_close.png</file>
+    <file>img/CtrlButton/player_open.png</file>
+    <file>img/CtrlButton/record.png</file>
+    <file>img/CtrlButton/recordSuspend.png</file>
+    <file>img/CtrlButton/recording.png</file>
+    <file>img/CtrlButton/recoveryRecord.png</file>
+    <file>img/CtrlButton/suspendRecord.png</file>
+    <file>img/CtrlButton/setting.png</file>
+    <file>img/CtrlButton/start_live.png</file>
+    <file>img/CtrlButton/QuickTool.png</file>
+    <file>img/CtrlButton/stop_sharing.png</file>
+    <file>img/CtrlButton/stream_status.png</file>
+  </qresource>
+  <qresource prefix="/sysButton">
+    <file>img/sysButton/close_btn.png</file>
+    <file>img/sysButton/close_btn_hover.png</file>
+    <file>img/sysButton/comboBox_disable.png</file>
+    <file>img/sysButton/fresh.png</file>
+    <file>img/sysButton/load_err.png</file>
+    <file>img/sysButton/setting.png</file>
+    <file>img/sysButton/spin.gif</file>
+    <file>img/sysButton/next_page.png</file>
+    <file>img/sysButton/left_page.png</file>
+    <file>img/sysButton/insertBg.png</file>
+    <file>img/sysButton/arrorw_up.png</file>
+    <file>img/sysButton/down_arrow.png</file>
+    <file>img/sysButton/check.png</file>
+    <file>img/sysButton/radio.png</file>
+    <file>img/sysButton/uncheck.png</file>
+    <file>img/sysButton/unradio.png</file>
+    <file>img/sysButton/comboBox_disable.png</file>
+    <file>img/CtrlButton/live_tool_disenabled.png</file>
+    <file>img/sysButton/btn_updateclose.png</file>
+    <file>img/sysButton/btn_close.png</file>
+    <file>img/sysButton/noiseDisable.png</file>
+    <file>img/sysButton/okButton.png</file>
+    <file>img/sysButton/okButtonOn.png</file>
+    <file>img/sysButton/cancelButton.png</file>
+    <file>img/sysButton/cancelButtonOn.png</file>
+    <file>img/sysButton/noiseEnable.png</file>
+    <file>img/sysButton/noiseTips.png</file>
+    <file>img/sysButton/noiseTipsOn.png</file>
+    <file alias="main_setting">img/sysButton/main_setting.png</file>
+    <file alias="min_button">img/sysButton/min_button.png</file>
+    <file alias="close_button">img/sysButton/close_button.png</file>
+    <file alias="vhall_logo">img/sysButton/vhall_logo.png</file>
+    <file alias="checkbox">img/sysButton/checkbox.png</file>
+    <file alias="radiobutton">img/sysButton/radiobutton.png</file>
+    <file alias="fontBold">img/sysButton/fontBold.png</file>
+    <file alias="fontColor">img/sysButton/fontColor.png</file>
+    <file alias="fontItalic">img/sysButton/fontItalic.png</file>
+    <file alias="fontUnderline">img/sysButton/fontUnderline.png</file>
+    <file alias="titleLogo">img/sysButton/vhallTitleLogo.png</file>
+    <file alias="addCamera">img/sysButton/addCamera.png</file>
+    <file alias="hintBackGreen">img/sysButton/hintBackground_green.png</file>
+    <file alias="hintBackRed">img/sysButton/hintBackground_red.png</file>
+    <file alias="hintBackYellow">img/sysButton/hintBackground_yellow.png</file>
+    <file>img/sysButton/immUpdate.png</file>
+    <file alias="micEnhanceAble">img/sysButton/micEnhanceAble.png</file>
+    <file alias="micVolumeAble">img/sysButton/micVolumeAble.png</file>
+    <file alias="micVolumeUnable">img/sysButton/micVolumeUnable.png</file>
+    <file alias="speakerVolumeAble">img/sysButton/speakerVolumeAble.png</file>
+    <file alias="speakerVolumeUnable">img/sysButton/speakerVolumeUnable.png</file>
+    <file alias="deleteItem">img/sysButton/delete_item.png</file>
+    <file alias="mediaPlayFileList">img/sysButton/media_play_filelist.png</file>
+    <file alias="mediaPlayLoop">img/sysButton/media_play_loop.png</file>
+    <file alias="mediaPlayPause">img/sysButton/media_play_pause.png</file>
+    <file alias="mediaPlayStart">img/sysButton/media_play_start.png</file>
+    <file alias="mediaPlayVolumeOff">img/sysButton/media_play_volume_off.png</file>
+    <file alias="mediaPlayVolumeOn">img/sysButton/media_play_volume_on.png</file>
+    <file alias="mediaPlayFileAdd">img/toolWidget/media_file_add.png</file>
+    <file alias="comboBox_normal">img/sysButton/comboBox_normal.png</file>
+    <file alias="comboBox_select">img/sysButton/comboBox_select.png</file>
+    <file alias="comboBox_normal_big">img/sysButton/comboBox_normal_big.png</file>
+    <file alias="comboBox_select_big">img/sysButton/combobox_select_big.png</file>
+    <file alias="comboBox_arrow_normal">img/sysButton/combobox_arrow_normal.png</file>
+    <file alias="combobox_arrow_press">img/sysButton/combobox_arrow_press.png</file>
+    <file alias="pushButton">img/sysButton/pushbutton.png</file>
+    <file alias="pushButton_disabled">img/sysButton/pushButton_disabled.png</file>
+    <file alias="pushButton_small">img/sysButton/pushbutton_small.png</file>
+    <file alias="pushButton_small_disabled">img/sysButton/pushbutton_small_disabled.png</file>
+    <file alias="sysButtonIcon_up">img/sysButton/sysButtonIcon_up.png</file>
+    <file alias="sysButtonIcon_down">img/sysButton/sysButtonIcon_down.png</file>
+    <file alias="apply">img/sysButton/apply.png</file>
+    <file alias="openCurDir">img/sysButton/openCurDir.png</file>
+    <file alias="ChangeDir">img/sysButton/ChangeDir.png</file>
+    <file alias="settingBtn">img/sysButton/settingBtn.png</file>
+    <file alias="EnhanceSetting">img/sysButton/EnhanceSetting.png</file>
+    <file alias="deviceOption">img/sysButton/deviceOption.png</file>
+    <file alias="volumnBackground">img/sysButton/volumnBackground.png</file>
+    <file alias="volumnHandle">img/sysButton/volumnHandle.png</file>
+    <file alias="micEnhanceUnable">img/sysButton/micEnhanceUnable.png</file>
+    <file alias="sysButtonIcon_hover">img/sysButton/sysButtonIcon_hover.png</file>
+    <file alias="shared_button">img/sysButton/shared_button.png</file>
+    <file>img/sysButton/widget_exit.png</file>
+    <file>img/sysButton/widget_exit_high.png</file>
+    <file alias="max_button">img/sysButton/max_button.png</file>
+    <file alias="normal_button">img/sysButton/normal_button.png</file>
+    <file alias="refresh_button">img/sysButton/refresh_button.png</file>
+    <file>img/sysButton/btn_close.png</file>
+  </qresource>
+  <qresource prefix="/mainMenu">
+    <file alias="aboutUS">img/mainMenu/aboutUS.png</file>
+    <file alias="exit">img/mainMenu/exit.png</file>
+    <file alias="QA">img/mainMenu/QA.png</file>
+    <file alias="setting">img/mainMenu/setting.png</file>
+    <file alias="usage">img/mainMenu/usage.png</file>
+    <file alias="triangle">img/mainMenu/triangle.png</file>
+  </qresource>
+  <qresource prefix="/login">
+    <file alias="password">img/loginDialog/password.png</file>
+    <file alias="username">img/loginDialog/username.png</file>
+    <file>img/loginDialog/login_auto.png</file>
+    <file>img/loginDialog/login_auto_checked.png</file>
+    <file>img/loginDialog/login_auto_hover.png</file>
+    <file>img/loginDialog/login_background.png</file>
+    <file>img/loginDialog/login_login.png</file>
+    <file>img/loginDialog/login_login_high.png</file>
+    <file>img/loginDialog/login_logo.png</file>
+    <file>img/loginDialog/login_password.png</file>
+    <file>img/loginDialog/login_password_high.png</file>
+    <file>img/loginDialog/login_user.png</file>
+    <file>img/loginDialog/login_user_high.png</file>
+    <file>img/loginDialog/login_verify_code.png</file>
+    <file>img/loginDialog/login_verify_code_high.png</file>
+    <file>img/loginDialog/login_login_disable.png</file>
+    <file>img/loginDialog/login_verify_code_disable.png</file>
+    <file>img/loginDialog/login_background_shadow.png</file>
+  </qresource>
+  <qresource prefix="/">
+    <file>Style.qss</file>
+    <file alias="qt_zh_cn">img/qt_zh_CN.qm</file>
+  </qresource>
+  <qresource prefix="/toolTip">
+    <file>img/toolTip/alert_bg.png</file>
+    <file>img/toolTip/desktop_tips.png</file>
+    <file>img/toolTip/LiveToolDlg1.png</file>
+    <file>img/toolTip/LiveToolDlg2.png</file>
+    <file>img/toolTip/LiveToolDlg3.png</file>
+    <file>img/toolTip/LiveToolDlg6.png</file>
+    <file>img/toolTip/noiseToolTips.png</file>
+    <file>img/toolTip/firstTip.png</file>
+    <file>img/toolTip/suspendTip.png</file>
+    <file>img/toolTip/versionBack.png</file>
+    <file>img/toolTip/splash.png</file>
+    <file>img/toolTip/vhprocessbarback.png</file>
+    <file>img/toolTip/findNew.png</file>
+  </qresource>
+  <qresource prefix="/desktopSharing">
+    <file>img/desktopSharing/share_select.png</file>
+    <file>img/desktopSharing/share_select_hover.png</file>
+    <file>img/desktopSharing/share_select_hover.png</file>
+    <file>img/desktopSharing/share_select.png</file>
+    <file>img/desktopSharing/left.png</file>
+    <file>img/desktopSharing/left_disable.png</file>
+    <file>img/desktopSharing/right.png</file>
+    <file>img/desktopSharing/right_disable.png</file>
+    <file>img/desktopSharing/checked.png</file>
+    <file>img/desktopSharing/checked_hover.png</file>
+    <file>img/desktopSharing/unckeck.png</file>
+    <file>img/desktopSharing/unckeck_hover.png</file>
+    <file>img/desktopSharing/redPoint.png</file>
+    <file>img/desktopSharing/background.png</file>
+    <file>img/desktopSharing/cameraBackground.png</file>
+    <file>img/desktopSharing/tipbackground.png</file>
+    <file>img/desktopSharing/backgroundNoChat.png</file>
+  </qresource>
+  <qresource prefix="/windowSetting">
+    <file>img/windowSetting/alert.png</file>
+    <file>img/windowSetting/share_bg.png</file>
+    <file>img/windowSetting/setting_bg.png</file>
+    <file>img/windowSetting/setting_bg.png</file>
+    <file>img/windowSetting/flush.png</file>
+  </qresource>
+  <qresource prefix="/mediaReader">
+    <file alias="InsertVideo">img/mediaReader/insertVideo.png</file>
+    <file alias="ListLoop">img/mediaReader/listloop.png</file>
+    <file alias="SeqLoop">img/mediaReader/sequentialplay.png</file>
+    <file alias="SingleLoop">img/mediaReader/singleloop.png</file>
+    <file alias="AddFiles">img/mediaReader/addfiles.png</file>
+    <file alias="BeginPlay">img/mediaReader/beginplay.png</file>
+    <file alias="StopPlay">img/mediaReader/stopplay.png</file>
+    <file alias="PlayListBackground">img/mediaReader/playlistbackground.png</file>
+  </qresource>
+  <qresource prefix="/MonitorAreaCapture">
+    <file>img/MonitorAreaCapture/closeBtnHover.png</file>
+    <file>img/MonitorAreaCapture/closeBtn.png</file>
+    <file alias="LEFT_BOTTOM">img/MonitorAreaCapture/left_bottom.png</file>
+    <file alias="LEFT_BOTTOM_HOVER">img/MonitorAreaCapture/left_bottom_hover.png</file>
+    <file alias="LEFT_TOP">img/MonitorAreaCapture/left_top.png</file>
+    <file alias="LEFT_TOP_HOVER">img/MonitorAreaCapture/left_top_hover.png</file>
+    <file alias="RIGHT_BOTTOM">img/MonitorAreaCapture/right_bottom.png</file>
+    <file alias="RIGHT_BOTTOM_HOVER">img/MonitorAreaCapture/right_bottom_hover.png</file>
+    <file alias="RIGHT_TOP">img/MonitorAreaCapture/right_top.png</file>
+    <file alias="RIGHT_TOP_HOVER">img/MonitorAreaCapture/right_top_hover.png</file>
+    <file alias="TOP">img/MonitorAreaCapture/top.png</file>
+    <file alias="TOP_HOVER">img/MonitorAreaCapture/top_hover.png</file>
+  </qresource>
+  <qresource prefix="/shared">
+    <file>img/shared/background.png</file>
+    <file>img/shared/copy.png</file>
+    <file>img/shared/copy_high.png</file>
+    <file>img/shared/input_background.png</file>
+  </qresource>
+  <qresource prefix="/teaching">
+    <file>img/teaching/camera_tips.png</file>
+    <file>img/teaching/live_beauty.png</file>
+    <file>img/teaching/rtc_beauty.png</file>
+    <file alias="BG_LEFT_DOWN">img/teaching/bg_left_down.png</file>
+    <file>img/teaching/active_live_chat.png</file>
+    <file>img/teaching/video_live_chat.png</file>
+    <file>img/teaching/tips_close.png</file>
+    <file alias="BG_LEFT_TOP">img/teaching/bg_left_top.png</file>
+    <file alias="BG_LEFT_TOP_LARGE">img/teaching/bg_left_top_large.png</file>
+    <file alias="BG_RIGHT_DOWN">img/teaching/bg_right_down.png</file>
+    <file alias="BG_RIGHT_TOP">img/teaching/bg_right_top.png</file>
+    <file alias="BTN_BG">img/teaching/btn_background.png</file>
+    <file alias="BTN_CLOSE">img/teaching/btn_close.png</file>
+    <file alias="BTN_CLOSE_HOVER">img/teaching/btn_close_hover.png</file>
+    <file alias="M_0">img/teaching/mainwindows_step2_res_0.png</file>
+    <file alias="M_1">img/teaching/mainwindows_step2_res_1.png</file>
+    <file alias="LIST">img/teaching/activity_list_res.png</file>
+  </qresource>
+  <qresource prefix="/res">
+    <file>img/res/title_shadow.png</file>
+  </qresource>
+  <qresource prefix="/interactivity">
+    <file>img/vhallactive/camera_close.png</file>
+    <file>img/vhallactive/head_normal.png</file>
+    <file>img/vhallactive/closeCamera_2.png</file>
+    <file>img/vhallactive/nojoin_2.png</file>
+    <file>img/interactivity/cb2.png</file>
+    <file>img/interactivity/Experience.png</file>
+    <file>img/interactivity/line.png</file>
+    <file>img/interactivity/shareToolBtn.png</file>
+    <file>img/interactivity/stopShareBackGroud.png</file>
+    <file>img/interactivity/shareToolBtn.png</file>
+    <file>img/interactivity/stopShareBackGroud.png</file>
+    <file>img/interactivity/shareToolBtn.png</file>
+    <file>img/interactivity/stopShareBackGroud.png</file>
+    <file>img/interactivity/background.png</file>
+    <file>img/interactivity/startLive.png</file>
+    <file>img/interactivity/to_speake_disable.png</file>
+    <file alias="choice">img/interactivity/choiceActivity.png</file>
+    <file alias="enterLive">img/interactivity/enter_live.png</file>
+    <file>img/interactivity/enter_live_unenable.png</file>
+    <file alias="enterLiveHover">img/interactivity/enter_live_hover.png</file>
+    <file alias="interactivity">img/interactivity/interactivity.png</file>
+    <file alias="interactivityHover">img/interactivity/interactivity_hover.png</file>
+    <file alias="joinActivity">img/interactivity/JoinActivity.png</file>
+    <file alias="live">img/interactivity/live.png</file>
+    <file alias="liveHover">img/interactivity/live_hover.png</file>
+    <file alias="arrawBottom">img/interactivity/arraw_bottom.png</file>
+    <file alias="arrawBottomHover">img/interactivity/arraw_bottom_hover.png</file>
+    <file alias="offSpeake">img/interactivity/off_speake.png</file>
+    <file alias="offSpeakeHover">img/interactivity/off_speake_hover.png</file>
+    <file alias="toSpeake">img/interactivity/to_speake.png</file>
+    <file alias="toSpeakeHover">img/interactivity/to_speake_hover.png</file>
+    <file alias="iconCamera">img/interactivity/icon_camera.png</file>
+    <file>img/interactivity/leave_speak.png</file>
+    <file>img/interactivity/leave_speak_hover.png</file>
+    <file>img/interactivity/leave_speak_unenable.png</file>
+    <file alias="iconSpeaker">img/interactivity/icon_speaker.png</file>
+    <file alias="iconDisableMic">img/interactivity/icon_disable_mic.png</file>
+    <file alias="iconScreen">img/interactivity/icon_screen.png</file>
+    <file alias="leaveLive">img/interactivity/leave_live.png</file>
+    <file>img/interactivity/leave_live_unenable.png</file>
+    <file alias="leaveLiveHover">img/interactivity/leave_live_hover.png</file>
+    <file alias="renderDesktop">img/interactivity/render_desktop.png</file>
+    <file alias="renderFinished">img/interactivity/render_finished.png</file>
+    <file alias="renderMasterExit">img/interactivity/render_master_exit.png</file>
+    <file alias="renderWait">img/interactivity/render_wait.png</file>
+    <file alias="arrawUp">img/interactivity/arraw_up.png</file>
+    <file alias="arrawUpHover">img/interactivity/arraw_up_hovr.png</file>
+    <file alias="askBackground">img/interactivity/ask_background.png</file>
+    <file alias="menuAskSpeak">img/interactivity/ask_speak_menu.png</file>
+    <file alias="menuCloseCamera">img/interactivity/close_camera_menu.png</file>
+    <file alias="c1">img/interactivity/c1.png</file>
+    <file alias="c2">img/interactivity/c2.png</file>
+    <file alias="c3">img/interactivity/c3.png</file>
+    <file alias="c4">img/interactivity/c4.png</file>
+    <file alias="c5">img/interactivity/c5.png</file>
+    <file alias="c6">img/interactivity/c6.png</file>
+    <file alias="c7">img/interactivity/c7.png</file>
+    <file alias="c8">img/interactivity/c8.png</file>
+    <file alias="c9">img/interactivity/c9.png</file>
+    <file alias="c10">img/interactivity/c10.png</file>
+    <file alias="c11">img/interactivity/c11.png</file>
+    <file alias="c12">img/interactivity/c12.png</file>
+    <file alias="cb">img/interactivity/cb.png</file>
+    <file alias="cb2">img/interactivity/cb2.png</file>
+    <file alias="db">img/interactivity/deviceBack.png</file>
+  </qresource>
+  <qresource prefix="/qt">
+    <file>qt.conf</file>
+  </qresource>
+</RCC>

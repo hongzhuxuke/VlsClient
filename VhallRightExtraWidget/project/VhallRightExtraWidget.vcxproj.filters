@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Depend">
+      <UniqueIdentifier>{d6e87ebc-c803-4b2f-9199-b444c455a4f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Instance">
+      <UniqueIdentifier>{637e9be4-751f-44d6-8e12-f15939cf956d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logical">
+      <UniqueIdentifier>{82f02ccd-169c-4414-ba14-033f3193b5a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{244054c5-6371-4ed2-922d-881624433df6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Depend\common">
+      <UniqueIdentifier>{313cd307-f271-4919-9fc4-eca7ed752ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\baseclass">
+      <UniqueIdentifier>{f7e66f65-3e86-4185-ac85-19ba72ff0fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Depend\common\message">
+      <UniqueIdentifier>{f4c7ed84-63d0-4da4-b28a-6cc4fce3fcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{3e023179-d29e-4658-8a01-2361b834ef49}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{7d3f5c14-6e4c-42b7-96ed-d032f4c3dd03}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{b645afa8-8af3-43e6-8622-1eea6c8653fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common\baseclass">
+      <UniqueIdentifier>{8135f868-a84c-4cc1-81ee-684d1805eab2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Project</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\BaseThread.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\DebugTrace.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\GlobalMemPoolBlock.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\PluginBase.cpp">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_CommonToolKit.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_MainUI.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_OBSControl.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\message\Msg_VhallRightExtraWidget.cpp">
+      <Filter>Depend\common\message</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\BufferQueue.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\charset.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBox.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ComboBoxItem.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ComboBoxItem.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ConfigSetting.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\CRC32.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Logging.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\Mixer.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\push_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_push_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_push_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\start_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_start_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_start_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\title_button.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_title_button.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_title_button.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\TitleWidget.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TitleWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UACUtility.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\UtilityTool.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\VhallViewWidget.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallViewWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallViewWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Instance\VhallRightExtraWidgetIns.cpp">
+      <Filter>Instance</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Logical\VhallRightExtraWidgetLogic.cpp">
+      <Filter>Logical</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_VhallRightExtraWidgetLogic.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_VhallRightExtraWidgetLogic.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_res.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\ToolButton.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolButton.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolButton.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\baseclass\pathmanager.cpp">
+      <Filter>Common\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\vhhttp.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_vhhttp.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_vhhttp.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\AlertDlg.cpp">
+      <Filter>Depend\common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AlertDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AlertDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\common\cbasedlg.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_cbasedlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\interface\IVhallRightExtraWidgetLogic.h">
+      <Filter>Logical</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Project</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\BaseThread.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\CriticalSection.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\CRMemPoolBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\CRPluginDef.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\DebugTrace.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\GlobalMemPoolBlock.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\MemPoolBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\PluginBase.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\Singleton.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\TypeDeff.h">
+      <Filter>Depend\common\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_CommonToolKit.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_MainUI.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_OBSControl.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\message\Msg_VhallRightExtraWidget.h">
+      <Filter>Depend\common\message</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\BufferQueue.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\charset.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\ConfigSetting.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\CRC32.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Defs.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Logging.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\Mixer.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\UACUtility.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\UtilityTool.h">
+      <Filter>Depend\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Instance\VhallRightExtraWidgetIns.h">
+      <Filter>Instance</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\InteractionSDK\IInteractionClient.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\pub.Const.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\common\baseclass\pathmanager.h">
+      <Filter>Common\baseclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="..\..\common\ComboBox.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ComboBoxItem.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\push_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\start_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\title_button.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\TitleWidget.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\VhallViewWidget.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Logical\VhallRightExtraWidgetLogic.h">
+      <Filter>Logical</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\Resources\res.qrc">
+      <Filter>Project</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\ToolButton.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\vhhttp.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\AlertDlg.h">
+      <Filter>Depend\common</Filter>
+    </CustomBuild>
+    <CustomBuild Include="..\..\common\cbasedlg.h">
+      <Filter>Common</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="VhallRightExtraWidget.def">
+      <Filter>Project</Filter>
+    </None>
+  </ItemGroup>
+</Project>
