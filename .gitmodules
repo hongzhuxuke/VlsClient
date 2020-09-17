@@ -4,3 +4,6 @@
 [submodule "PaasSDK"]
 	path = PaasSDK
 	url = https://github.com/hongzhuxuke/PaasSDK.git
+[submodule "winsdk-player"]
+	path = winsdk-player
+	url = https://github.com/hongzhuxuke/winsdk-player.git
